@@ -5,14 +5,6 @@ import SignupPage from "../pageObjects/SignupPage"
 const homePage = new HomePage()
 const signupPage = new SignupPage()
 
-// Before(() => {
-//     cy.visit(Cypress.env('url'));
-//     cy.fixture('example').then(function(data){
-//         this.data=data
-//     })
-
-//   });
-
 
 Given('I open website', () => {
     homePage.goToWebsite(Cypress.env('url'));
