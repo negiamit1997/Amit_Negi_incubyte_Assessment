@@ -1,0 +1,8 @@
+{
+  "firstName" : "Amit",
+  "lastName": "Negi",
+  "email":"amit1213@yopmail.com",
+  "pass":"Amit@12345678",
+  "invalidEmail": "xyz123xyz@abc.com",
+  "invalidPass": "123123123123123"
+}
